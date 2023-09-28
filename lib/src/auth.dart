@@ -478,7 +478,7 @@ class Auth {
   Future<void> setSettings(
           {bool? appVerificationDisabledForTesting, String? userAccessGroup}) =>
       _modAuth!.setSettings(
-        appVerificationDisabledForTesting: appVerificationDisabledForTesting,
+        appVerificationDisabledForTesting: appVerificationDisabledForTesting!,
         userAccessGroup: userAccessGroup,
       );
 
